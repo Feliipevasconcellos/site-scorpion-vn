@@ -982,7 +982,7 @@ h2 {
     top: -25px;
   }
 
-  .pill-col {
+  .fruits-col {
     position: relative !important;
     height: 430px !important;
     display: table !important;
@@ -1258,7 +1258,7 @@ input.btn.btn-primary,
   }
 }
 
-@keyframes float-pill {
+@keyframes float-fruits {
   0% {
     transform: translatey(0px) rotate(15deg) scale(0.8);
     filter: blur(4px);
@@ -1275,7 +1275,7 @@ input.btn.btn-primary,
   }
 }
 
-@keyframes float-pill2 {
+@keyframes float-fruits2 {
   0% {
     transform: translatey(0px) rotate(-15deg) scale(1.4);
     filter: blur(7px);
@@ -1318,7 +1318,7 @@ input.btn.btn-primary,
 }
 
 .p1 {
-  animation: float-pill 8s ease-in-out infinite;
+  animation: float-fruits 8s ease-in-out infinite;
   position: absolute;
   left: 90px;
   bottom: 250px;
@@ -1326,7 +1326,7 @@ input.btn.btn-primary,
 }
 
 .p2 {
-  animation: float-pill2 12s ease-in-out infinite;
+  animation: float-fruits2 12s ease-in-out infinite;
   max-width: 170px;
   position: absolute;
   bottom: -40px;
@@ -1334,7 +1334,7 @@ input.btn.btn-primary,
 }
 
 .p3 {
-  animation: float-pill 8s ease-in-out infinite;
+  animation: float-fruits2 8s ease-in-out infinite;
   position: absolute;
   left: 25px;
   bottom: 450px;
@@ -1342,7 +1342,7 @@ input.btn.btn-primary,
 }
 
 .p4 {
-  animation: float-pill2 6s ease-in-out infinite;
+  animation: float-fruits2 6s ease-in-out infinite;
   position: absolute;
   left: 250px;
   bottom: 250px;
@@ -1527,7 +1527,7 @@ h5,
     margin-top: 450px !important;
   }
 
-  #home .frasco {
+  #home .pod {
     animation: none !important;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1537,7 +1537,7 @@ h5,
     width: 315px !important;
   }
 
-  #home .frasco {
+  #home .pod {
     max-width: 200px;
   }
 
@@ -2429,7 +2429,7 @@ time {
   color: var(--corUm);
 }
 
-.amostra-frasco {
+.amostra-pod {
   margin: 50px 50px 50px 0px;
   animation: float 6s ease-in-out infinite;
   max-width: 200px;
@@ -2650,7 +2650,7 @@ time {
   text-align: left;
 }
 
-.pill-testimonial {
+.fruits-testimonial {
   position: absolute;
   width: 100px;
   z-index: 9999999;
@@ -2989,7 +2989,7 @@ time {
   max-width: 100%;
 }
 
-#home .frasco {
+#home .pod {
   animation: brilho 4s ease-in-out infinite;
   max-width: 200px;
 }
@@ -3435,7 +3435,7 @@ html[xmlns] .slides {
   padding: 5px 10px;
 }
 
-#josh .frasco {
+#josh .pod {
   max-width: 100px;
   animation: float 6s ease-in-out infinite;
   position: absolute;
