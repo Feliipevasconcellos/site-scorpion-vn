@@ -544,11 +544,9 @@
 
                         <div class="back-title">Cadastro</div>
 
-                        <h3 class="text-white">Cadastro</h3>
+                        <h3 class="text-white">Cadastro de Cliente</h3>
 
-                        <p class="color-pr">Nossos testes em laboratório e comprovados por nossos usuários, mostraram
-                            alta eficiência em seis pontos principais além dos vários outros aspectos de melhora no
-                            corpo no dia a dia. São eles:</p>
+                        <p class="color-pr">Preencha seus dados para ter acesso a ofertas exclusivas</p>
 
                     </div>
 
@@ -558,105 +556,109 @@
 
         </div>
 
-        <div class="container">
+        <div class="row justify-content-center">
 
-            <div class="row justify-content-md-center">
+            <div class="col-md-8 justify-content-center">
 
-                <div class="col-md-3" data-entrance="from-bottom" data-entrance-delay="100" data-tilt
-                    data-tilt-perspective="2000" data-tilt-speed="700" data-tilt-max="24" data-tilt-glare="false"
-                    data-tilt-scale="1.05">
+                <form id="customerForm" class="customer-form w-100">
 
-                    <div class="b-icon"><img src="/novo/img/b-icon-1.svg"></div>
+                    <div class="form-group">
 
-                    <div class="b-name">Economia de Tempo</div>
+                        <label for="fullName"> Nome Completo <span class="star">*</span></label>
 
-                    <div class="b-text">Você vai sentir a necessidade de organização do seu dia, semana, mês e as
-                        tarefas que precisa fazer em tempo hábil. Isso te faz economizar muito mais tempo.</div>
-
-                </div>
-
-                <div class="col-md-3" data-entrance="from-bottom" data-entrance-delay="150" data-tilt
-                    data-tilt-perspective="2000" data-tilt-speed="700" data-tilt-max="24" data-tilt-glare="false"
-                    data-tilt-scale="1.05">
-
-                    <div class="b-icon"><img src="/novo/img/b-icon-2.svg"></div>
-
-                    <div class="b-name">Clareza Mental</div>
-
-                    <div class="b-text">Dificuldades de memorização? De fala? Timidez? Reduza esses problemas e deixes
-                        seus pensamentos mais limpos.
+                        <input type="text" id="fullName" name="fullName" class="form-control" required>
 
                     </div>
 
-                </div>
+                    <div class="form-row">
 
-                <div class="col-md-3" data-entrance="from-bottom" data-entrance-delay="200" data-tilt
-                    data-tilt-perspective="2000" data-tilt-speed="700" data-tilt-max="24" data-tilt-glare="false"
-                    data-tilt-scale="1.05">
+                        <div class="form-group col-md-8">
 
-                    <div class="b-icon"><img src="/novo/img/b-icon-3.svg"></div>
+                            <label for="address"> Endereço <span class="star">*</span></label>
 
-                    <div class="b-name">Melhora na Saúde</div>
+                            <input type="text" id="address" name="address" class="form-control" required>
 
-                    <div class="b-text">Esse é um efeito natural quando o seu cérebro começa a trabalhar em sua versão
-                        “melhorada”. Os resultados são sentidos por todo o corpo.
+                        </div>
+
+                        <div class="form-group col-md-4">
+
+                            <label for="houseNumber" style="white-space: nowrap;"> Número da Casa <span
+                                    class="star">*</span></label>
+
+                            <input type="text" id="houseNumber" name="houseNumber" class="form-control" required>
+
+                        </div>
 
                     </div>
 
-                </div>
+                    <div class="form-group">
 
+                        <label for="cpf"> CPF <span class="star">*</span></label>
 
+                        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" class="form-control"
+                            required>
 
-            </div>
-
-            <div class="row justify-content-md-center">
-
-                <div class="col-md-3" data-entrance="from-bottom" data-entrance-delay="250" data-tilt
-                    data-tilt-perspective="2000" data-tilt-speed="700" data-tilt-max="24" data-tilt-glare="false"
-                    data-tilt-scale="1.05">
-
-                    <div class="b-icon"><img src="/novo/img/b-icon-4.svg"></div>
-
-                    <div class="b-name">Redução do Estresse</div>
-
-                    <div class="b-text">O Focus Alfa ajuda a aumentar os níveis de serotonina no sangue, hormônio que
-                        atua aumentando o bom humor, regulando o sono, o apetite, a libido e muito mais.</div>
-
-                </div>
-
-                <div class="col-md-3" data-entrance="from-bottom" data-entrance-delay="300" data-tilt
-                    data-tilt-perspective="2000" data-tilt-speed="700" data-tilt-max="24" data-tilt-glare="false"
-                    data-tilt-scale="1.05">
-
-                    <div class="b-icon"><img src="/novo/img/b-icon-7.svg"></div>
-
-                    <div class="b-name">Aumento da Imunidade</div>
-
-                    <div class="b-text">Com outras atividades do corpo funcionando em ritmo mais saudável e alinhado, o
-                        sistema imunológico consegue trabalhar com menos esforço para combater possíveis problemas.
                     </div>
 
-                </div>
+                    <div class="form-group">
 
-                <div class="col-md-3" data-entrance="from-bottom" data-entrance-delay="350" data-tilt
-                    data-tilt-perspective="2000" data-tilt-speed="700" data-tilt-max="24" data-tilt-glare="false"
-                    data-tilt-scale="1.05">
+                        <label for="email"> E-mail <span class="star">*</span></label>
 
-                    <div class="b-icon"><img src="/novo/img/b-icon-6.svg"></div>
+                        <input type="email" id="email" name="email" class="form-control">
 
-                    <div class="b-name">Rejuvenescer a pele</div>
+                    </div>
 
-                    <div class="b-text">Os sinais na pele são percebidos porque a melhora no sono, na alimentação, na
-                        energia e no estresse/ansiedade refletem no organismo de modo geral.</div>
+                    <div class="form-group">
 
-                </div>
+                        <label for="phone"> Telefone <span class="star">*</span></label>
+
+                        <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000" class="form-control">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="documentPhoto"> Foto do Documento <span class="star">*</span></label>
+
+                        <div class="file-upload">
+
+                            <input type="file" id="documentPhoto" name="documentPhoto" accept="image/*" required>
+
+                            <div class="file-upload-display">
+
+                                <span class="file-upload-text">Clique para anexar a foto do documento</span>
+
+                                <div class="file-preview" id="filePreview"></div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-group checkbox-group">
+
+                        <label class="checkbox-label">
+
+                            <input type="checkbox" id="terms" name="terms" required>
+
+                            <span class="checkmark"></span>
+
+                            Concordo com os <a href="#" class="terms-link">termos e condições</a>
+
+                        </label>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block submit-button">Cadastrar</button>
+
+                </form>
 
             </div>
 
         </div>
 
     </section>
-
 
 
     <!-- Cadastro --><!-- Para quem é feito -->
