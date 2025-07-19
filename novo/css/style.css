@@ -332,7 +332,7 @@ section {
   text-decoration: none;
 }
 
-.logo-wrap {
+/* .logo-wrap {
   position: relative;
   padding: 0;
   margin: 0 auto;
@@ -353,7 +353,7 @@ section {
 .logo-wrap li img {
   display: block;
   height: 33px;
-}
+} */
 
 .title-wrap {
   position: relative;
@@ -1027,9 +1027,9 @@ h2 {
     bottom: 280px !important;
   }
 
-  .logo-wrap {
+  /* .logo-wrap {
     text-align: center !important;
-  }
+  } */
 }
 
 footer p {
@@ -1411,7 +1411,7 @@ h5,
   font-weight: 600;
 }
 
-.logo-wrap {
+/* .logo-wrap {
   position: relative;
   padding: 0;
   margin: 0 auto;
@@ -1432,11 +1432,11 @@ h5,
   display: block;
   height: auto;
   max-width: 100px;
-}
+} */
 
-.logo-d {
+/* .logo-d {
   padding: 0px;
-}
+} */
 
 .background-gradient-dark-re {
   background: linear-gradient(#1e0b56, #0e0529);
