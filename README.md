@@ -2,7 +2,7 @@
 
 # Scorpion VN – Tabacaria & Headshop
 
-Site institucional da tabacaria Scorpion VN com informações sobre produtos, modelos de narguiles, serviços e contatos. Publicado em [scorpionovo.netlify.app](https://scorpionovo.netlify.app)
+Site institucional da Scorpion VN com informações sobre produtos, modelos de narguiles, serviços e contatos. Publicado em [scorpionovo.netlify.app](https://scorpionovo.netlify.app)
 
 ## ✨ Funcionalidades
 
