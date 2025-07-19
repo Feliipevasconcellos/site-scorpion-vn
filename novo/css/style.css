@@ -1686,10 +1686,10 @@ h5,
     text-align: center !important;
   }
 
-  #garantia .lead {
+  /* #garantia .lead {
     text-align: center !important;
     margin-top: 40px;
-  }
+  } */
 
   #aviso li {
     font-size: 0.7em !important;
