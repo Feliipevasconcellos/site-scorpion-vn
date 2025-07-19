@@ -1,4 +1,4 @@
-![Preview do site da Scorpion VN](novo/img/scorpionvn.png)
+![Preview do site da Scorpion VN](assets/img/scorpionvn.png)
 
 # Scorpion VN – Tabacaria & Headshop
 
