@@ -1591,6 +1591,10 @@ h5,
     font-size: 1em !important;
   }
 
+  .ct-for img {
+    margin-top: 15px;
+  }
+
   .blog-slider__empresa {
     text-align: center !important;
   }
